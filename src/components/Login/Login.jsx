@@ -35,7 +35,7 @@ const Login = () => {
         }}
       >
         {({ isValid }) => (
-          <Form className="login_form">
+          <Form className="register-form">
             <Field type="email" name="email" placeholder="Email" />
             <ErrorMessage name="email" component="span" className="error" />
             <Field type="password" name="password" placeholder="Password" />
