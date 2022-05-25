@@ -132,3 +132,54 @@ p.ingredient_price_final {
   color: #fff;
   font-size: 1.5em;
 }
+
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40vw;
+    height: 50vh;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.login_btn{
+border-radius: 4px;
+border: none;
+color: white;
+padding: 5px;
+cursor: pointer;
+margin-top: 2px;
+}
+
+.login_btn:hover{
+    opacity: 0.8;
+}
+
+.login{
+    background-color: #1030AD;
+}
+
+.facebook {
+background-color: #4267B2;
+}
+
+.google{
+background-color: #d32f2f;
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+}
+
+.link{
+    color: #1030AD;
+    text-decoration: none;
+    font-size: 12px;
+}
