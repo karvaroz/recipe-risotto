@@ -7,12 +7,14 @@ const RecipeCard = ({ item }) => {
         type="checkbox"
         name="ingredient_checkbox"
         className="ingredient_checkbox"
-        value=""
+        defaultChecked
       />
       <input
         type="number"
         name="quantity"
         min="1"
+        value={1}
+        readOnly
         className="ingredient_quantity ingredient_quantity_{index}"
       />
       <div className="ingredient_details">
